@@ -16,6 +16,10 @@
 
     {% block maincss %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static '\css\main.css' %}">
     {% endblock %}
 
     {% block extraCSS %}
@@ -25,7 +29,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"
+        integrity="sha512-m2PhLxj2N91eYrIGU2cmIu2d0SkaE4A14bCjVb9zykvp6WtsdriFCiXQ/8Hdj0kssUB/Nz0dMBcoLsJkSCto0Q=="
+        crossorigin="anonymous"></script>
+    <script src="{% static '\javascript\script.js' %}"></script>
     {% endblock %}
 
     {% block extraJS %}
@@ -36,16 +43,57 @@
 
 <body>
 
-    <nav>
+
+
+    <nav class="main_nav">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+            <a href="#" class="brand-logo">
+                <img class="logo_image" src="{% static '\images\rubymoon_logo.png' %}">
+            </a>
+
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                    class="menu_icon material-icons">menu</i></a>
+            <ul class="right nav_items_wrap hide-on-med-and-down">
+                <li class="nav_items modal-trigger"><a class="modal-trigger nav_links" href="#modal1"><i
+                            class="material-icons left">search</i>Search the
+                        store</a>
+                </li>
+                <li class="nav_items"><a class="nav_links" href="#">Login</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Register</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
             </ul>
         </div>
     </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li class="nav_items"><a class="nav_links" href="#">Login</a></li>
+        <li class="nav_items"><a class="nav_links" href="#">Register</a></li>
+        <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
+
+    </ul>
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4 class="search_site_title"><em>Search our site</em></h4>
+            <nav class="search_nav">
+                <div class="nav-wrapper search_wrap">
+                    <form class="search_form" method="POST" action="">
+                        <div class="input-field">
+                            <input id="search" type="search" name="q" required>
+                            <label class="label-icon" for="search"><i style="color: #000;"
+                                    class="material-icons search_icon">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                        <button href="#!" class="search_button">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
 
 
     {% if messages %}
