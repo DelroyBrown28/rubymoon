@@ -3,7 +3,7 @@
     "model": "store_products.category",
     "fields": {
         "name": "hairdye",
-        "clean_name": "Hairdye"
+        "clean_name": "Hair dye"
     }
 }, {
     "pk": 2,
