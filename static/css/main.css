@@ -7,6 +7,14 @@ body {
     overflow: hidden;
 }
 
+.dimmer {
+    opacity: 0.5;
+}
+
+.purple_text {
+    color: purple;
+}
+
 .main_nav {
     background-color: transparent;
     box-shadow: none;
@@ -28,11 +36,26 @@ a.brand-logo {
 
 .nav_links {
     color: #000;
+
+}
+
+.cart_amount {
+    margin: 0;
+    color: #000;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #fff;
 }
 
 .menu_icon {
     color: #000;
 }
+
 
 
 /* Main center contents */

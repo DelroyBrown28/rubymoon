@@ -47,28 +47,60 @@
 
     <nav class="main_nav">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">
+            <!-- <a href="#" class="brand-logo">
                 <img class="logo_image" src="{% static '\images\rubymoon_logo.png' %}">
-            </a>
+            </a> -->
 
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
                     class="menu_icon material-icons">menu</i></a>
-            <ul class="right nav_items_wrap hide-on-med-and-down">
+            <ul class="left nav_items_wrap hide-on-med-and-down">
+                {% if request.user.is_authenticated %}
                 <li class="nav_items modal-trigger"><a class="modal-trigger nav_links" href="#modal1"><i
                             class="material-icons left">search</i>Search the
                         store</a>
                 </li>
-                <li class="nav_items"><a class="nav_links" href="#">Login</a></li>
-                <li class="nav_items"><a class="nav_links" href="#">Register</a></li>
                 <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
+                <li class="nav_items z-depth-1 cart">
+                    <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}" href="#"> <i
+                            class="material-icons cart_icon">shopping_cart</i>
+                        <p class="cart_amount">
+                            {% if grand_total %}
+                            £{{ grand_total|floatformat:2 }}
+                            {% else %}
+                            £0.00
+                            {% endif %}
+                        </p>
+                    </a>
+
+                </li>
+                <li class="nav_items"><a class="nav_links" href{% url 'account_logout' %}">Logout</a></li>
+                {% else %}
+                <li class="nav_items"><a class="nav_links" href="{% url 'account_login' %}">Login</a></li>
+                <li class="nav_items"><a class="nav_links" href="{% url 'account_signup' %}">Register</a></li>
+                {% endif %}
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
+        {% if request.user.is_authenticated %}
+        <li class="nav_items modal-trigger"><a class="modal-trigger nav_links" href="#modal1"><i
+                    class="material-icons left">search</i>Search the
+                store</a>
+        </li>
+        <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
+        <li class="nav_items z-depth-1 cart">
+            <a class="nav_links" href="#"> <i class="material-icons cart_icon">shopping_cart</i>
+            </a>
+            <p class="cart_amount">£0.00</p>
+        </li>
+
+        {% else %}
         <li class="nav_items"><a class="nav_links" href="#">Login</a></li>
         <li class="nav_items"><a class="nav_links" href="#">Register</a></li>
-        <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
+        {% endif %}
+
+
 
     </ul>
 
