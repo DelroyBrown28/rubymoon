@@ -2,7 +2,50 @@
 {% load static %}
 
 {% block content %}
-<div class="container">
-    {{ store_products }}
+<div class="hairdye__store_wrap">
+    <div class="container">
+        <div class="container">
+            <div class="hairdye__title_wrap">
+                <h1 class="title__hairdye_store">Hair Dye</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container hairdye_wrap">
+        <div class="row product__hairdye">
+
+            {% for product in store_products %}
+            <div class="card">
+                {% if product.image %}
+                <div class="card-image">
+                    <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                </div>
+                {% else %}
+                <div class="card-image">
+                    <img src="{{ MEDIA_URL }}rubymoon_logo.png">
+                </div>
+                {% endif %}
+                <p class="hairdye__productName">{{ product.name }}</p>
+                <div class="price_wrap">
+                    <p class="hairdye__productPrice">Price</p>
+                    <span class="dots">. . . . . . . . . . . . . . . . </span>
+                    <p class="hairdye__price">£{{ product.price }}</p>
+
+                </div>
+                <div class="card-content">
+                    <p>{{ product.description }}</p>
+                </div>
+                <div class="card-action buyButton__hairdye">
+                    <a style="color: #fff;" href="#">Buy</a>
+                </div>
+            </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+
 </div>
 {% endblock %}

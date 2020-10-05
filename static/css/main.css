@@ -4,7 +4,6 @@ body {
     margin: 0;
     background-color: #EFEFDC;
     font-family: 'Open Sans', sans-serif;
-    overflow: hidden;
 }
 
 .dimmer {
@@ -162,7 +161,7 @@ a.brand-logo {
 
 .modal {
     height: 70%;
-    
+
 }
 
 .modal-footer {
@@ -180,7 +179,7 @@ a.brand-logo {
     background-color: #EFEFDC;
     border-bottom: 1px solid #000;
 
-   
+
 }
 
 .search_nav {
@@ -196,6 +195,96 @@ a.brand-logo {
     background-color: transparent;
     border: 1px solid #000;
     cursor: pointer;
+
+}
+
+/* Hair Dye Store */
+
+.hairdye__store_wrap {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    /*  */
+    border: 1px solid red;
+
+}
+
+
+.title__hairdye_store {
+    font-weight: 300;
+    text-align: center;
+    opacity: 0.7;
+    font-family: 'Cinzel Decorative', cursive;
+    margin: auto;
+
+
+}
+
+.hairdye_wrap {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.card {
+    margin: 15px 15px;
+    width: 290px;
+    /* padding-bottom: 10px; */
+    box-shadow: none;
+    background-color: #EFEFDC;
+    border: 1px solid #000;
+
+}
+
+.buyButton__hairdye {
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #000 !important;
+
+}
+
+/* .card:nth-child(1n) {
+    page-break-after: always;
+} */
+
+.product__hairdye {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+
+}
+
+.hairdye__productName {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.price_wrap {
+    display: flex;
+    font-weight: 600;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+.dots {
+    margin: 0;
+}
+
+.hairdye__productPrice {
+    margin: 0;
+}
+
+.hairdye__price {
+    padding: 0px;
+    margin: 0;
+
 
 }
 
