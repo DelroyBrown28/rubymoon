@@ -142,7 +142,6 @@ a.brand-logo {
     width: 100vw;
     height: 100vh;
     top: 0;
-    background-color: red;
     visibility: hidden;
     z-index: -1;
 
@@ -204,8 +203,6 @@ a.brand-logo {
     width: 100%;
     display: flex;
     flex-flow: column;
-    /*  */
-    border: 1px solid red;
 
 }
 

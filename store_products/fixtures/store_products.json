@@ -1,54 +1,112 @@
 [{
-    "pk": 1,
-    "model": "store_products.product",
-    "fields": {
-        "sku": "pp5001340155",
-        "name": "Red Hair Dye",
-        "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-        "price":9.50,
-        "category": 6,
-        "rating": 4.6,
-        "image_url": "media/red_dye.png",
-        "image": "red_dye.png"
-    }
-}, {
-    "pk": 2,
-    "model": "store_products.product",
-    "fields": {
-        "sku": "pp5001600425",
-        "name": "Purple Hair Dye",
-        "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
-        "price":9.50,
-        "category": 4,
-        "rating": 4.6,
-        "image_url": "media/purple_dye.png",
-        "image": "purple_dye.png"
-    }
-}, {
-    "pk": 3,
-    "model": "store_products.product",
-    "fields": {
-        "sku": "pp5001730010",
-        "name": "Orange Hair Dye",
-        "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-        "price":9.50,
-        "category": 2,
-        "rating": 4.7,
-        "image_url": "media/orange_dye.png",
-        "image": "orange_dye.png"
-    }
-}, {
-    "pk": 4,
-    "model": "store_products.product",
-    "fields": {
-        "sku": "pp5001890157",
-        "name": "Platinum Blonde Hair Dye",
-        "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-        "price":9.50,
-        "category": 7,
-        "rating": 3.0,
-        "image_url": "media/blonde_dye.png",
-        "image": "blonde_dye.png"
-    }
+        "pk": 1,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Red Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "media/red_dye.png",
+            "image": "red_dye.png"
+        }
+    }, {
+        "pk": 2,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "Purple Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "media/purple_dye.png",
+            "image": "purple_dye.png"
+        }
+    }, {
+        "pk": 3,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "Orange Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "media/orange_dye.png",
+            "image": "orange_dye.png"
+        }
+    }, {
+        "pk": 4,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Platinum Blonde Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 3.0,
+            "image_url": "media/blonde_dye.png",
+            "image": "blonde_dye.png"
+        }
 
-}]
+    }, {
+        "pk": 5,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Deep Black Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 3.0,
+            "image_url": "media/black_dye.png",
+            "image": "black_dye.png"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Yellow Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 3.0,
+            "image_url": "media/yellow_dye.png",
+            "image": "yellow_dye.png"
+        }
+
+    },
+    {
+        "pk": 7,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Intense Blonde Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 3.0,
+            "image_url": "media/intense_blonde_dye.png",
+            "image": "intense_blonde_dye.png"
+        }
+
+    },
+    {
+        "pk": 8,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Wolf White Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 9.50,
+            "category": 1,
+            "rating": 3.0,
+            "image_url": "media/wolf_white_dye.png",
+            "image": "wolf_white_dye.png"
+        }
+    }
+]
