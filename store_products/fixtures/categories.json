@@ -1,0 +1,30 @@
+[{
+    "pk": 1,
+    "model": "store_products.category",
+    "fields": {
+        "name": "hairdye",
+        "clean_name": "Hairdye"
+    }
+}, {
+    "pk": 2,
+    "model": "store_products.category",
+    "fields": {
+        "name": "incense",
+        "clean_name": "Incense"
+    }
+}, {
+    "pk": 3,
+    "model": "store_products.category",
+    "fields": {
+        "name": "oils",
+        "clean_name": "Oils"
+    }
+}, {
+    "pk": 4,
+    "model": "store_products.category",
+    "fields": {
+        "name": "gift_vouchers",
+        "clean_name": "Gift Vouchers"
+    }
+
+}]

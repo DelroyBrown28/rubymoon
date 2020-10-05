@@ -149,6 +149,10 @@ a.brand-logo {
 
 }
 
+.search_icon {
+    margin: auto;
+}
+
 /* Search bar modal */
 
 .modal,
