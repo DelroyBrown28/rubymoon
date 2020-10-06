@@ -228,6 +228,9 @@ a.brand-logo {
 .card {
     margin: 15px 15px;
     width: 290px;
+    display: flex;
+    flex-flow: column;
+    /* height: 700px; */
     /* padding-bottom: 10px; */
     box-shadow: none;
     background-color: #EFEFDC;
@@ -235,8 +238,17 @@ a.brand-logo {
 
 }
 
+.product_description {
+    height: 100%;
+
+}
+
 .buyButton__hairdye {
     margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
