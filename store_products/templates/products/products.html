@@ -19,9 +19,9 @@
             {% for product in store_products %}
             <div class="card">
                 {% if product.image %}
-                <div class="card-image">
+                <a class="card-image" href="{% url 'product_info' product.id %}">
                     <img src="{{ product.image.url }}" alt="{{ product.name }}">
-                </div>
+                </a>
                 {% else %}
                 <div class="card-image">
                     <img src="{{ MEDIA_URL }}rubymoon_logo.png">
@@ -36,6 +36,11 @@
                 </div>
                 <div class="card-content product_description">
                     <p>{{ product.description }}</p>
+                </div>
+                <div class="row">
+                    <p style="text-align: center;">Rating<br> <i class="material-icons">star_border</i>
+                        {{ product.rating }}</p>
+
                 </div>
                 <div class="card-action buyButton__hairdye">
                     <a style="color: #fff;" href="#">Buy</a>

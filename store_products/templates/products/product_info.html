@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row product_wrap">
+        {% if product.image %}
+
+        <div class="product_image_wrap">
+            <img class="product_image" src="{{ product.image.url }}" alt="{{ product.name }}">
+        </div>
+        {% else %}
+        <div class="product_image_wrap">
+            <img class="product_image" src="{{ product.image.url }}" alt="{{ product.name }}">
+        </div>
+        {% endif %}
+        <div class="price_wrap">
+            <p class="hairdye__productPrice">Price</p>
+            <span class="dots">. . . . . . . . . . . . . . . . </span>
+            <p class="hairdye__price">£{{ product.price }}</p>
+
+        </div>
+        <p class="hairdye__productName">{{ product.name }}</p>
+        <p class="description__product_info">{{ product.description }}</p>
+    </div>
+</div>
+{% endblock %}

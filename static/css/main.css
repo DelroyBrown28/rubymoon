@@ -297,6 +297,26 @@ a.brand-logo {
 
 }
 
+/* Product info page */
+
+.product_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.product_image {
+    height: 350px;
+}
+
+.description__product_info {
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 @media (max-width:1406px) {
 
     body {
