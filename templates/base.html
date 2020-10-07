@@ -55,10 +55,6 @@
                     class="menu_icon material-icons">menu</i></a>
             <ul class="left nav_items_wrap hide-on-med-and-down">
                 {% if request.user.is_authenticated %}
-                <li class="nav_items modal-trigger"><a class="modal-trigger nav_links" href="#modal1"><i
-                            class="material-icons left">search</i>Search the
-                        store</a>
-                </li>
                 <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
                 <li class="nav_items z-depth-1 cart">
                     <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}" href="#"> <i
@@ -77,6 +73,11 @@
                 {% else %}
                 <li class="nav_items"><a class="nav_links" href="{% url 'account_login' %}">Login</a></li>
                 <li class="nav_items"><a class="nav_links" href="{% url 'account_signup' %}">Register</a></li>
+                <li class="nav_items modal-trigger"><a class="modal-trigger nav_links" href="#modal1"><i
+                            class="material-icons left">search</i>Search the
+                        store</a>
+                </li>
+
                 {% endif %}
             </ul>
         </div>
@@ -120,7 +121,7 @@
             <h4 class="search_site_title"><em>Search our site</em></h4>
             <nav class="search_nav">
                 <div class="nav-wrapper search_wrap">
-                    <form class="search_form" method="POST" action="">
+                    <form class="search_form" method="GET" action="{% url 'products' %}">
                         {% csrf_token %}
 
                         <div class="input-field">
