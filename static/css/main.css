@@ -6,6 +6,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color: #000;
+}
+
 .dimmer {
     opacity: 0.5;
 }
@@ -257,10 +261,6 @@ a.brand-logo {
 
 }
 
-/* .card:nth-child(1n) {
-    page-break-after: always;
-} */
-
 .product__hairdye {
     display: flex;
     flex-flow: row wrap;
@@ -294,7 +294,34 @@ a.brand-logo {
     padding: 0px;
     margin: 0;
 
+}
 
+
+.sort_wrap {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+
+}
+
+.sort_by {
+    font-weight: 600;
+
+}
+
+.sort_tags {
+    margin-left: 10px;
+    font-weight: 600;
+    opacity: 0.5;
+    height: 20px;
+    width: 80px;
+    transition: 0.3s;
+
+    
+}
+
+.sort_tags:hover {
+    opacity: 1;
 }
 
 /* Product info page */

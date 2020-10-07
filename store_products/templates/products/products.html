@@ -10,7 +10,16 @@
             </div>
         </div>
 
-    </div><br><br>
+    </div>
+
+    <div class="container sort">
+        <div class="sort_wrap">
+            <p class="sort_by">Sort By |
+                <a class="sort_tags" href="{% url 'products' %}?sort=price&direction=asc">Price</a>
+                <a class="sort_tags" href="{% url 'products' %}?sort=rating&direction=asc">Rating</a>
+            </p>
+        </div>
+    </div>
 
 
     <div class="container hairdye_wrap">
