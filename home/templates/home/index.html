@@ -10,18 +10,19 @@
 
             <div class="store_pages_wrap">
                 <div class="sp_wrap1">
-                    <a href="{% url 'products' %}?category=hairdye" class="store_buttons hairdye tooltipped" data-position="left"
-                        data-tooltip="Hairdye">
+                    <a href="{% url 'products' %}?category=hairdye" class="store_buttons hairdye tooltipped"
+                        data-position="left" data-tooltip="Hairdye">
                         <img class="store_icons" src="{% static '\images\hairdye_icon.png' %}" alt="">
                     </a>
-                    <a href="{% url 'products' %}?category=incense" class="store_buttons tooltipped" data-position="bottom" data-tooltip="Incense">
+                    <a href="{% url 'products' %}?category=incense" class="store_buttons tooltipped"
+                        data-position="bottom" data-tooltip="Incense">
                         <img class="store_icons" src="{% static '\images\incense_icon.png' %}" alt="">
                     </a>
                 </div>
                 <div class="sp_wrap2">
-                    <div class="store_buttons tooltipped" data-position="bottom" data-tooltip="Oils">
+                    <a href="{% url 'products' %}?category=oils" class="store_buttons tooltipped" data-position="bottom" data-tooltip="Oils">
                         <img class="store_icons" src="{% static '\images\oil_icon.png' %}" alt="">
-                    </div>
+                    </a>
                     <div class="store_buttons tooltipped" data-position="right" data-tooltip="Gift Vocuhers">
                         <img class="store_icons" src="{% static '\images\voucher_icon.png' %}" alt="">
                     </div>

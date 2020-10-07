@@ -117,7 +117,7 @@
             "name": "Desert Sage Smudge Stick",
             "description": "Our Desert Sage Smudge Sticks are hand made in New Mexico from the finest quality ingredients.<br> The end of the stick is lit with a fireproof dish held underneath to catch any ash, the smoke is then spread around the area",
             "price": 5.00,
-            "category": 3,
+            "category": 2,
             "rating": 3.0,
             "image_url": "media/dessert_sage_smudge_stick__incense.png",
             "image": "dessert_sage_smudge_stick__incense.png"
@@ -131,7 +131,7 @@
             "name": "California Sage",
             "description": "Our California Sage is hand made with high quality ingredients. Sourced from California and 100% natural, these smudging sticks can be hung upside down in dark room until they are fully burned out",
             "price": 5.00,
-            "category": 3,
+            "category": 2,
             "rating": 3.0,
             "image_url": "media/cali_sage__incense.png.png",
             "image": "cali_sage__incense.png"
@@ -145,7 +145,7 @@
             "name": "Rainforest Incense Sticks",
             "description": "Handrolled with the finest quality fragrances, our Rainforest incense sticks have the most wonderful and beautiful sent of the rainforest.",
             "price": 5.00,
-            "category": 3,
+            "category": 2,
             "rating": 3.0,
             "image_url": "media/rainforest__incense.png",
             "image": "rainforest__incense.png"
@@ -159,12 +159,123 @@
             "name": "Sage & Sweetgrass",
             "description": "100% pure, all natural, wild-crafted and hand-picked, our Sage & Sweetgrass smudge sticks calm the mind, allowing one to meditate more fully and be able to focus on the task at hand.",
             "price": 9.50,
-            "category": 3,
+            "category": 2,
             "rating": 3.0,
             "image_url": "media/sage_sweetgrass___incense",
             "image": "sage_sweetgrass___incense.png"
         }
+    },
+    {
+        "pk": 13,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Black Pepper Oil",
+            "description": "Black Pepper Essential Oil is obtained by steam distillation of the seeds. Black Pepper oil maybe used in aromatherapy for aching muscles, arthritis, constipation, poor circulation and much more.",
+            "price": 3.70,
+            "category": 3,
+            "rating": 3.0,
+            "image_url": "media/black_pepper__oils.png",
+            "image": "black_pepper__oils.png"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Citronella",
+            "description": "Our Citronella oil has a fresh, sweet and fruity aroma. In aromatherapy, Citronella can be used for excessive perspiration, fatigue, headaches and oily skin. It's also an excellent insect repellant.",
+            "price": 3.50,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "media/citronella__oils.png",
+            "image": "citronella__oils.png"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Clary Sage",
+            "description": "Clary Sage Essential Oil is extracted from the flowering tops and leaves. This essential oil has a green balsamic aromatic smell and is mildly antiseptic. An uplifting tonic that is warming and relaxing, Clear Sage is best used to fight fatigue.",
+            "price": 5.00,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "media/clary_sage__oils.png",
+            "image": "clary_sage__oils.png"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Ylang Ylang",
+            "description": "Ylang Ylang essential oil is extracted from the freshly picked flower of the tropical tree. Ylang Ylang Essential Oil has a sweet potent floral smell that affects the mind more the body. It is also rejuvenating for skin and hair",
+            "price": 4.50,
+            "category": 3,
+            "rating": 3.7,
+            "image_url": "media/ylangylang__oils.png",
+            "image": "ylangylang__oils.png"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Lavender Essential Oil",
+            "description": "Lavender Essential Oil is extracted from the leaves of the evergreen shrub. This essential oil is one of the most commonly used. It is both relaxing and stimulating, a powerful antiseptic and healer as it calms, refreshes, invigorates and lifts the spirits.",
+            "price": 6.20,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "media/lavender__oils.png",
+            "image": "lavender__oils.png"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Geranium Rose Oil",
+            "description": "Geranium Rose Oil has a rich Rosey fragrance. Used to brighten mood, reduce wrinkles and help calm and reduce nervous tension. It also helps to promote restless sleep",
+            "price": 9.50,
+            "category": 3,
+            "rating": 3.0,
+            "image_url": "media/rose__oils.png",
+            "image": "rose__oils.png"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Hemp Oil",
+            "description": "Our unique formula is rich in natural ingredients! Hemp oil can help to relieve body pains, aching and sore muscles, stiffness and inflammation and also helps to balance skin tone.",
+            "price": 6.20,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "media/hemp__oils.png",
+            "image": "hemp__oils.png"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Chamomile Roman Essential Oil",
+            "description": "Chamomile is one of the oldest British medicinal and beauty herbs. In aromatherapy it is used for stress, sleeplessness, headaches, rashes, Insect bites, burns, cuts, toothache and menstrual or menopausal problems.",
+            "price": 6.50,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "media/chamomile_roman__oils.png",
+            "image": "chamomile_roman__oils.png"
+        }
     }
-
 
 ]
