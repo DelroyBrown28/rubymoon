@@ -9,9 +9,38 @@
                 <h1 class="title__hairdye_store">Products</h1>
             </div>
         </div>
-
     </div>
 
+    <!-- Tags to other categories -->
+
+    <!-- <div class="container category_tag_wrap">
+        <div class="store_pages_wrap">
+            <div class="sp_wrap1">
+                <a href="{% url 'products' %}?category=hairdye" class="store_buttons hairdye tooltipped"
+                    data-position="left" data-tooltip="Hairdye">
+                    <img class="store_icons" src="{% static '\images\hairdye_icon.png' %}" alt="">
+                </a>
+                <a href="{% url 'products' %}?category=incense" class="store_buttons tooltipped"
+                    data-position="bottom" data-tooltip="Incense">
+                    <img class="store_icons" src="{% static '\images\incense_icon.png' %}" alt="">
+                </a>
+            </div>
+            <div class="sp_wrap2">
+                <a href="{% url 'products' %}?category=oils" class="store_buttons tooltipped" data-position="bottom"
+                    data-tooltip="Oils">
+                    <img class="store_icons" src="{% static '\images\oil_icon.png' %}" alt="">
+                </a>
+                <a href="{% url 'products' %}?category=gift_vouchers" class="store_buttons tooltipped" data-position="right" data-tooltip="Gift Vouchers">
+                    <img class="store_icons" src="{% static '\images\voucher_icon.png' %}" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div> -->
+
+
+
+    <!-- Sort products by price or rating -->
     <div class="container sort">
         <div class="sort_wrap">
             <p class="sort_by">Sort By |
@@ -46,11 +75,22 @@
                 <div class="card-content product_description">
                     <p>{{ product.description }}</p>
                 </div>
+
                 <div class="row">
-                    <p style="text-align: center;">Rating<br> <i class="material-icons">star_border</i>
-                        {{ product.rating }}</p>
+
+                    <p class="rating">
+                        <i class="material-icons">star_border</i>
+                        Rating
+                        <span class="dots">. . . . . . . . . . . . . . </span>
+                        {{ product.rating }}
+                    </p>
+
+
 
                 </div>
+
+
+
                 <div class="card-action buyButton__hairdye">
                     <a style="color: #fff;" href="#">Buy</a>
                 </div>

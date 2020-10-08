@@ -276,6 +276,46 @@
             "image_url": "media/chamomile_roman__oils.png",
             "image": "chamomile_roman__oils.png"
         }
+    },
+    {
+        "pk": 21,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "£5 Gift Voucher",
+            "description": "This voucher can only be used once, we retain the vouchers after the purchase. We can not give change or smaller voucher amounts for vouchers, se we advise using your voucher all in one go. There is no 'Use by' date so you don't have to feel pressured to use them in a rush.",
+            "price": 5.00,
+            "category": 4,
+            "image_url": "media/gift_voucher_5pounds.png",
+            "image": "gift_voucher_5pounds.png"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "£10 Gift Voucher",
+            "description": "This voucher can only be used once, we retain the vouchers after the purchase. We can not give change or smaller voucher amounts for vouchers, se we advise using your voucher all in one go. There is no 'Use by' date so you don't have to feel pressured to use them in a rush.",
+            "price": 10.00,
+            "category": 4,
+            "image_url": "media/gift_voucher_10pounds.png",
+            "image": "gift_voucher_10pounds.png"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "£20 Gift Voucher",
+            "description": "This voucher can only be used once, we retain the vouchers after the purchase. We can not give change or smaller voucher amounts for vouchers, se we advise using your voucher all in one go. There is no 'Use by' date so you don't have to feel pressured to use them in a rush.",
+            "price": 20.00,
+            "category": 4,
+            "image_url": "media/gift_voucher_20pounds.png",
+            "image": "gift_voucher_20pounds.png"
+        }
     }
+
 
 ]
