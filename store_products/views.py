@@ -20,8 +20,8 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 store_products = store_products.annotate(lower_name=Lower('name'))
-
-
+            if sortkey == 'category':
+                sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
@@ -36,6 +36,7 @@ def all_products(request):
                 category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
+        """ Search functionality"""
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:

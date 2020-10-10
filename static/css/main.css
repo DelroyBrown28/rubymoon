@@ -138,7 +138,8 @@ a.brand-logo {
 }
 
 .about_para {
-    font-size: 15px;
+    font-size: 18px;
+    text-align: center;
     /* min-width: 80%; */
     width: 100%;
     /* margin: auto; */
@@ -242,18 +243,39 @@ a.brand-logo {
     /* padding-bottom: 10px; */
     box-shadow: none;
     background-color: #EFEFDC;
-    border: 1px solid #000;
+    border: 2px solid #000;
+    transition: 0.3s;
 
 }
 
+.card:hover {
+    border: 2px solid #00917C;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.card-image {
+    transition: 0.3s ease;
+
+}
+
+
 .product_description {
     height: 100%;
+    text-align: center;
 
 }
 
 .buyButton__hairdye {
     margin: auto;
     width: 100%;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,39 +351,33 @@ a.brand-logo {
 }
 
 
-.rating {
+.rating,
+.category_tag {
     width: 240px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
-.product_tag {
-    width: 240px;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
+.category_tag {
+    width: 115px;
+    margin: auto;
+    justify-content: center;
+    /* border-top: 2px solid #000;
+    border-bottom: 2px solid #000; */
 
 }
 
-.tag_wrap {
-    border: 1px solid red;
+.cat_tag {
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-.tag_icon {
-    height: 15px;
-
-}
-
-.tag_category {
-    margin: 0;
-}
-
-.tag {
-    
-
-    border: 1px solid red;
+.cat_tag:hover>body  {
+    opacity: 1;
 }
 
 

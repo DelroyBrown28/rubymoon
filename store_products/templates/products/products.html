@@ -6,7 +6,12 @@
     <div class="container">
         <div class="container">
             <div class="hairdye__title_wrap">
-                <h1 class="title__hairdye_store">Products</h1>
+                <!-- <h1 class="title__hairdye_store">Products</h1> -->
+
+                {% for current_cat in current_categories %}
+                <h3 style="text-align: center;" class="current_category_tag">{{ current_cat.clean_name }}</h3>
+                {% endfor %}
+
             </div>
         </div>
     </div>
@@ -77,23 +82,24 @@
                 </div>
 
                 <div class="row">
-
                     <p class="rating">
                         <i class="material-icons">star_border</i>
                         Rating
                         <span class="dots">. . . . . . . . . . . . . . </span>
                         {{ product.rating }}
                     </p>
-
-
-
+                    <p class="category_tag">
+                        {% if product.category %}
+                        <a class="cat_tag" href="{% url 'products' %}?category={{ product.category.name }}">
+                            <em>{{ product.category.clean_name }}</em>
+                        </a>
+                        {% endif %}
+                    </p>
                 </div>
 
-
-
-                <div class="card-action buyButton__hairdye">
+                <button class="card-action buyButton__hairdye">
                     <a style="color: #fff;" href="#">Buy</a>
-                </div>
+                </button>
             </div>
             {% endfor %}
 

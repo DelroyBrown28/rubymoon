@@ -13,6 +13,7 @@
         <div class="product_image_wrap">
             <img class="product_image" src="{{ product.image.url }}" alt="{{ product.name }}">
         </div>
+        
         {% endif %}
         <div class="price_wrap">
             <p class="hairdye__productPrice">Price</p>
@@ -21,7 +22,15 @@
 
         </div>
         <p class="hairdye__productName">{{ product.name }}</p>
+        <p class="category_tag">
+            {% if product.category %}
+            <a class="cat_tag" href="{% url 'products' %}?category={{ product.catgory.name }}">
+                {{ product.category.clean_name }}
+            </a>
+            {% endif %}
+        </p>
         <p class="description__product_info">{{ product.description }}</p>
+        
     </div>
 </div>
 {% endblock %}
