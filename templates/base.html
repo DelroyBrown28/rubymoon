@@ -32,6 +32,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"
         integrity="sha512-m2PhLxj2N91eYrIGU2cmIu2d0SkaE4A14bCjVb9zykvp6WtsdriFCiXQ/8Hdj0kssUB/Nz0dMBcoLsJkSCto0Q=="
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="{% static '\javascript\script.js' %}"></script>
     {% endblock %}
 
@@ -57,8 +59,8 @@
                 {% if request.user.is_authenticated %}
                 <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
                 <li class="nav_items z-depth-1 cart">
-                    <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}" href="{% url 'view_cart' %}"> <i
-                            class="material-icons cart_icon">shopping_cart</i>
+                    <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}"
+                        href="{% url 'view_cart' %}"> <i class="material-icons cart_icon">shopping_cart</i>
                         <p class="cart_amount">
                             {% if grand_total %}
                             £{{ grand_total|floatformat:2 }}
