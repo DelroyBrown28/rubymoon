@@ -10,15 +10,33 @@
 
 <div class="container main_cart_view">
 
+    {% if cart_items %}
+    {% for item in cart_items %}
 
-    <div class="row">
-        {% if cart_items %}
-        <div class="col s3">
-            {{cart_items}}
+    <div class="row cart_items_wrap">
+
+        <div class="col s3 side_border cart_field">
+            <img class="image_field___cart" src="{{ item.product.image.url }}">
         </div>
-        {% else %}
+        <div class="col s3 side_border cart_field">
+            <p style="margin: 0;"><strong>{{ item.product.name }}</strong></p>
+        </div>
+        <div class="col s3 side_border cart_field">
+            <p style="margin: 0;">Quantity:</p>
+            <p style="margin: 0;"><strong>{{ item.quantity }}</strong></p>
+        </div>
+        <div class="col s3 side_border cart_field">
+            <p><strong>Price: {{ item.product.price }}</strong></p>
+        </div>
 
     </div>
+    {% endfor %}
+
+
+
+        
+
+    {% else %}
     <div class="row">
         <div class="col s3 cart_info">
 

@@ -10,6 +10,10 @@ body {
     display: none !important;
 }
 
+.side_border {
+    border-right: 3px solid #000;
+}
+
 a {
     color: #000;
 }
@@ -477,7 +481,7 @@ a.brand-logo {
 
 .amount_input {
     width: 290px !important;
- 
+
 }
 
 .button_wrap__product_info {
@@ -488,6 +492,26 @@ a.brand-logo {
     justify-content: center;
 
 
+}
+
+/* Shopping cart */
+
+.image_field___cart {
+
+    height: 200px;
+}
+
+.cart_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cart_items_wrap {
+    margin: 0px 0px 20px 0px;
+    /* border: 1px solid #000; */
 }
 
 @media (max-width:1406px) {

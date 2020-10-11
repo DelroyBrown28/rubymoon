@@ -98,7 +98,7 @@
                 </div>
 
                 <button class="card-action buyButton__hairdye">
-                    <a style="color: #fff;" href="#">Buy</a>
+                    <a style="color: #fff;" href="{% url 'add_to_cart' product.id %}">Buy</a>
                 </button>
             </div>
             {% endfor %}
