@@ -57,7 +57,7 @@
                 {% if request.user.is_authenticated %}
                 <li class="nav_items"><a class="nav_links" href="#">Profile</a></li>
                 <li class="nav_items z-depth-1 cart">
-                    <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}" href="#"> <i
+                    <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}" href="{% url 'view_cart' %}"> <i
                             class="material-icons cart_icon">shopping_cart</i>
                         <p class="cart_amount">
                             {% if grand_total %}
