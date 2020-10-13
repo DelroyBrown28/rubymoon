@@ -103,13 +103,25 @@
                     {% endif %}
                 </p>
             </a>
-
         </li>
 
 
         {% else %}
         <li class="nav_items"><a class="nav_links" href="#">Login</a></li>
         <li class="nav_items"><a class="nav_links" href="#">Register</a></li>
+        <li class="nav_items z-depth-1 cart">
+            <a class="nav_links {% if grand_total %} purple_text {% else %} dimmer {% endif %}" href="#"> <i
+                    class="material-icons cart_icon">shopping_cart</i>
+                <p class="cart_amount">
+                    {% if grand_total %}
+                    £{{ grand_total|floatformat:2 }}
+                    {% else %}
+                    £0.00
+                    {% endif %}
+                </p>
+            </a>
+        </li>
+
         {% endif %}
 
 

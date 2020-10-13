@@ -541,5 +541,17 @@ a.brand-logo {
         margin: 10px 0px;
     }
 
+    /* Sign in page */
 
+    #id_login {
+        background: transparent;
+    }
+
+    .login_form {
+        border: 1px solid red ;
+    }
+
+    .primaryAction {
+        width: 200px;
+    }
 }
