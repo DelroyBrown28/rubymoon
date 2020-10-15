@@ -24,6 +24,8 @@
         <div class="col s3 side_border cart_field">
             <p style="margin: 0;">Quantity:</p>
             <p style="margin: 0;"><strong>{{ item.quantity }}</strong></p>
+            <p style="margin: 0;">Size:</p>
+            <p style="margin: 0;"><strong>{% if item.product.item_has_size %}{{ item.size|upper }}{% else %}No Size Available{% endif %}</strong></p>
         </div>
         <div class="col s3 side_border cart_field">
             <p><strong>Price: {{ item.product.price }}</strong></p>

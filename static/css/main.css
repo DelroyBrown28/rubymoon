@@ -419,6 +419,30 @@ a.brand-logo {
     font-size: 20px;
 }
 
+.amount_size_wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+.amount_size_wrap_fullwidth {
+
+}
+
+.size_select {
+    width: 50% !important;
+}
+
+.dropdown-content {
+    background: #EFEFDC !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+}
+
+
 /* Shopping cart page */
 
 .main_cart_view {
@@ -490,8 +514,11 @@ a.brand-logo {
 
 .amount_input {
     width: 290px !important;
+    margin: auto !important;
+
 
 }
+
 
 .button_wrap__product_info {
     margin-top: 15px;
