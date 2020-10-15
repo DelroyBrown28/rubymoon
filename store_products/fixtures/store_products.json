@@ -381,6 +381,123 @@
             "image_url": "media/lumberjackshirt__clothing.png",
             "image": "lumberjackshirt__clothing.png"
         }
+    },
+    {
+        "pk": 29,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Tibetan Infinite Knot Guitar Case",
+            "description": "100% hemp guiatr case with side zipper and Tibetan infinite knot embroidery design.",
+            "price": 70.00,
+            "category": 4,
+            "image_url": "media/tibetaninfinisteknotguitarcase__accessories.png",
+            "image": "tibetaninfinisteknotguitarcase__accessories.png"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Om Embroidery Guitar Case",
+            "description": "100% hemp guitar case with Om symbol embroidery design.",
+            "price": 70.00,
+            "category": 4,
+            "image_url": "media/omembroideryguitarcase__accessories.png",
+            "image": "omembroideryguitarcase__accessories.png"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Patchwork T-Shirt Dress",
+            "description": "100% hemp mid-length Patchwork Dress with T-Shirt style sleves.",
+            "price": 20.00,
+            "category": 4,
+            "image_url": "media/patchworkdress__clothing.png",
+            "image": "patchworkdress__clothing.png"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Fairly Odd Dress",
+            "description": "100% fairtrade cotton with patchwork bodice and inserts. Lace detailing, spaghetti straps and elasticated back.",
+            "price": 50.00,
+            "category": 4,
+            "image_url": "media/fairlyodddress__clothing.png",
+            "image": "fairlyodddress__clothing.png"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Teardrop Dress",
+            "description": "Cotton sleevless Mandala Dress with hand printed designs and embroidery detailing.",
+            "price": 30.00,
+            "category": 4,
+            "image_url": "media/teardropdress__clothing.png",
+            "image": "teardropdress__clothing.png"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Patchwork Dungarees",
+            "description": "Cotton patchwork dungarees. Waist pockets, side trouser pockets with button and centre front single pocket. Adjustable straps with coconut button fastening. Button fastenings at the waist. Elasticated ankle hem.",
+            "price": 30.00,
+            "category": 4,
+            "image_url": "media/patchworkdungarees__clothing.png",
+            "image": "patchworkdungarees__clothing.png"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Hemp Backpack",
+            "description": "Back pack made from hemp and cotton. One large main zipped pocket, smaller front zipped pocket, and two side open elasticated pockets. Padded fully adjustable straps.",
+            "price": 35.00,
+            "category": 4,
+            "image_url": "media/hempbackpack__accessories.png",
+            "image": "hempbackpack__accessories.png"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Faux Leather Cowboy Hat",
+            "description": "Faux leather cowboy hat with cotton embroidery.",
+            "price": 25.00,
+            "category": 4,
+            "image_url": "media/fauxleathercowboyhat__accessories.png",
+            "image": "fauxleathercowboyhat__accessories.png"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Vegan Cowboy Hat",
+            "description": "100% hemp cowboy hat with wide adjustable wired brim.",
+            "price": 20.00,
+            "category": 4,
+            "image_url": "media/vegancowboyhat__accessories.png",
+            "image": "vegancowboyhat__accessories.png"
+        }
     }
 
 

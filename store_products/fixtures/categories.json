@@ -27,4 +27,11 @@
         "clean_name": "Clothing"
     }
 
+}, {
+    "pk": 5,
+    "model": "store_products.category",
+    "fields": {
+        "name": "accessories",
+        "clean_name": "Accessories"
+    }
 }]
