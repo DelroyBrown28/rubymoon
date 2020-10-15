@@ -8,6 +8,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 4.6,
+            "item_has_size": false,
             "image_url": "media/red_dye.png",
             "image": "red_dye.png"
         }
@@ -21,6 +22,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 4.6,
+            "item_has_size": false,
             "image_url": "media/purple_dye.png",
             "image": "purple_dye.png"
         }
@@ -34,6 +36,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 4.7,
+            "item_has_size": false,
             "image_url": "media/orange_dye.png",
             "image": "orange_dye.png"
         }
@@ -47,6 +50,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/blonde_dye.png",
             "image": "blonde_dye.png"
         }
@@ -61,6 +65,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/black_dye.png",
             "image": "black_dye.png"
         }
@@ -75,6 +80,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/yellow_dye.png",
             "image": "yellow_dye.png"
         }
@@ -90,6 +96,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/intense_blonde_dye.png",
             "image": "intense_blonde_dye.png"
         }
@@ -105,6 +112,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/wolf_white_dye.png",
             "image": "wolf_white_dye.png"
         }
@@ -119,6 +127,7 @@
             "price": 5.00,
             "category": 2,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/dessert_sage_smudge_stick__incense.png",
             "image": "dessert_sage_smudge_stick__incense.png"
         }
@@ -133,8 +142,9 @@
             "price": 5.00,
             "category": 2,
             "rating": 3.0,
-            "image_url": "media/cali_sage__incense.png.png",
-            "image": "cali_sage__incense.png"
+            "item_has_size": false,
+            "image_url": "media/californiasage__incense.png",
+            "image": "californiasage__incense.png"
         }
     },
     {
@@ -142,13 +152,14 @@
         "model": "store_products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "Rainforest Incense Sticks",
-            "description": "Handrolled with the finest quality fragrances, our Rainforest incense sticks have the most wonderful and beautiful sent of the rainforest.",
+            "name": "White Sage & Lavender",
+            "description": "These great White Sage Smudge Sticks are combined with a sprig of lavender, are used to bless, cleanse and heal the person or object being smudged. When the bulb stick it set alight, the smoke should be passed around the home or over the objects that need cleansing.",
             "price": 5.00,
             "category": 2,
-            "rating": 3.0,
-            "image_url": "media/rainforest__incense.png",
-            "image": "rainforest__incense.png"
+            "rating": 4.3,
+            "item_has_size": false,
+            "image_url": "media/whitesagelavender__incencse.png",
+            "image": "whitesagelavender__incencse.png"
         }
     },
     {
@@ -161,6 +172,7 @@
             "price": 9.50,
             "category": 2,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/sage_sweetgrass___incense",
             "image": "sage_sweetgrass___incense.png"
         }
@@ -175,6 +187,7 @@
             "price": 3.70,
             "category": 3,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/black_pepper__oils.png",
             "image": "black_pepper__oils.png"
         }
@@ -189,6 +202,7 @@
             "price": 3.50,
             "category": 3,
             "rating": 4.0,
+            "item_has_size": false,
             "image_url": "media/citronella__oils.png",
             "image": "citronella__oils.png"
         }
@@ -203,6 +217,7 @@
             "price": 5.00,
             "category": 3,
             "rating": 5.0,
+            "item_has_size": false,
             "image_url": "media/clary_sage__oils.png",
             "image": "clary_sage__oils.png"
         }
@@ -217,6 +232,7 @@
             "price": 4.50,
             "category": 3,
             "rating": 3.7,
+            "item_has_size": false,
             "image_url": "media/ylangylang__oils.png",
             "image": "ylangylang__oils.png"
         }
@@ -231,6 +247,7 @@
             "price": 6.20,
             "category": 3,
             "rating": 5.0,
+            "item_has_size": false,
             "image_url": "media/lavender__oils.png",
             "image": "lavender__oils.png"
         }
@@ -245,6 +262,7 @@
             "price": 9.50,
             "category": 3,
             "rating": 3.0,
+            "item_has_size": false,
             "image_url": "media/rose__oils.png",
             "image": "rose__oils.png"
         }
@@ -259,6 +277,7 @@
             "price": 6.20,
             "category": 3,
             "rating": 4.5,
+            "item_has_size": false,
             "image_url": "media/hemp__oils.png",
             "image": "hemp__oils.png"
         }
@@ -273,6 +292,7 @@
             "price": 6.50,
             "category": 3,
             "rating": 5.0,
+            "item_has_size": false,
             "image_url": "media/chamomile_roman__oils.png",
             "image": "chamomile_roman__oils.png"
         }
@@ -282,11 +302,12 @@
         "model": "store_products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "Pathwork Jacket",
+            "name": "Patchwork Jacket",
             "description": "Hippie festival jacket made from 100% hemp with hood, zip and button up fastening",
             "price": 50.00,
             "category": 4,
-            "rating" : 5.0,
+            "rating": 5.0,
+            "item_has_size": true,
             "image_url": "media/menspatchworkjacket__clothing.png",
             "image": "menspatchworkjacket__clothing.png"
         }
@@ -300,6 +321,7 @@
             "description": "Magicians Multicoloured Waistcoat made from 100% fairtrade cotton. Double pointed collar with coconut button fastening.",
             "price": 30.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/magcicianswaistcoat__clothing.png",
             "image": "magcicianswaistcoat__clothing.png"
         }
@@ -313,6 +335,7 @@
             "description": "Stonewashed Cotton Corduroy Dungaree style Pinafore Dress with waist and back pockets. Adjustable straps and coconut button fastening.",
             "price": 30.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/farmerswifepinafore__clothing.png",
             "image": "farmerswifepinafore__clothing.png"
         }
@@ -326,6 +349,7 @@
             "description": "Heavy cotton dungaree style dress. with beautiful crochet and embroidery detailing and coconut button fastenings.",
             "price": 25.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/pinaress__clothing.png",
             "image": "pinaress__clothing.png"
         }
@@ -335,10 +359,11 @@
         "model": "store_products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "Pathwork Pants",
-            "description": "100% Hemp Pathwork Pants with draw string for fastening and deep back and side pockets.",
+            "name": "Patchwork Pants",
+            "description": "100% Hemp Patchwork Pants with draw string for fastening and deep back and side pockets.",
             "price": 35.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/patchworkpants__clothing.png",
             "image": "patchworkpants__clothing.png"
         }
@@ -348,10 +373,11 @@
         "model": "store_products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "Pathwork Shorts",
+            "name": "Patchwork Shorts",
             "description": "50% Hemp 50% Cotton, these patchwork shorts come with cargo style pockets and an elasticated waistband.",
             "price": 15.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/patchworkshorts__clothing.png",
             "image": "patchworkshorts__clothing.png"
         }
@@ -361,10 +387,11 @@
         "model": "store_products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "Pathwork Skirt",
+            "name": "Patchwork Skirt",
             "description": "Stretchy cotton pathwork skirt made form 100% recycled fabrics.",
             "price": 10.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/patchworkskirt__clothing.png",
             "image": "patchworkskirt__clothing.png"
         }
@@ -378,6 +405,7 @@
             "description": "Soft cotton flannel shirt with side breast pockets, grandad collar and coconut buttons.",
             "price": 30.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/lumberjackshirt__clothing.png",
             "image": "lumberjackshirt__clothing.png"
         }
@@ -391,6 +419,7 @@
             "description": "100% hemp guiatr case with side zipper and Tibetan infinite knot embroidery design.",
             "price": 70.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/tibetaninfinisteknotguitarcase__accessories.png",
             "image": "tibetaninfinisteknotguitarcase__accessories.png"
         }
@@ -404,6 +433,7 @@
             "description": "100% hemp guitar case with Om symbol embroidery design.",
             "price": 70.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/omembroideryguitarcase__accessories.png",
             "image": "omembroideryguitarcase__accessories.png"
         }
@@ -417,6 +447,7 @@
             "description": "100% hemp mid-length Patchwork Dress with T-Shirt style sleves.",
             "price": 20.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/patchworkdress__clothing.png",
             "image": "patchworkdress__clothing.png"
         }
@@ -430,6 +461,7 @@
             "description": "100% fairtrade cotton with patchwork bodice and inserts. Lace detailing, spaghetti straps and elasticated back.",
             "price": 50.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/fairlyodddress__clothing.png",
             "image": "fairlyodddress__clothing.png"
         }
@@ -443,6 +475,7 @@
             "description": "Cotton sleevless Mandala Dress with hand printed designs and embroidery detailing.",
             "price": 30.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/teardropdress__clothing.png",
             "image": "teardropdress__clothing.png"
         }
@@ -456,6 +489,7 @@
             "description": "Cotton patchwork dungarees. Waist pockets, side trouser pockets with button and centre front single pocket. Adjustable straps with coconut button fastening. Button fastenings at the waist. Elasticated ankle hem.",
             "price": 30.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/patchworkdungarees__clothing.png",
             "image": "patchworkdungarees__clothing.png"
         }
@@ -469,6 +503,7 @@
             "description": "Back pack made from hemp and cotton. One large main zipped pocket, smaller front zipped pocket, and two side open elasticated pockets. Padded fully adjustable straps.",
             "price": 35.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/hempbackpack__accessories.png",
             "image": "hempbackpack__accessories.png"
         }
@@ -482,6 +517,7 @@
             "description": "Faux leather cowboy hat with cotton embroidery.",
             "price": 25.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/fauxleathercowboyhat__accessories.png",
             "image": "fauxleathercowboyhat__accessories.png"
         }
@@ -495,6 +531,7 @@
             "description": "100% hemp cowboy hat with wide adjustable wired brim.",
             "price": 20.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/vegancowboyhat__accessories.png",
             "image": "vegancowboyhat__accessories.png"
         }
@@ -508,6 +545,7 @@
             "description": "Patterned and stonewash heavy cotton dungaree style dress, with crochet and embroidery detailing and coconut button fastenings.",
             "price": 35.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/reddungadress__clothing.png",
             "image": "reddungadress__clothing.png"
         }
@@ -521,6 +559,7 @@
             "description": "Cotton bumbag with adjustable belt with buckle. Three zipped pockets.",
             "price": 15.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/hempbumbag__accessories.png",
             "image": "hempbumbag__accessories.png"
         }
@@ -534,6 +573,7 @@
             "description": "Back pack made from hemp and cotton. One large main zipped pocket, smaller front zipped pocket, and two side open elasticated pockets. Padded fully adjustable straps.",
             "price": 35.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/cottonbackpack__accessories.png",
             "image": "cottonbackpack__accessories.png"
         }
@@ -547,6 +587,7 @@
             "description": "Digital print and stonewashed heavy cotton pullover jacket with hood. Fully fleece lined, side welt pockets.",
             "price": 70.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/kaleidoscopeembroideryhoody__clothing.png",
             "image": "kaleidoscopeembroideryhoody__clothing.png"
         }
@@ -560,6 +601,7 @@
             "description": "Large soft shawl with red, cream and green stripe and chevron design.",
             "price": 20.00,
             "category": 4,
+            "item_has_size": false,
             "image_url": "media/redshawlblanket__accessories.png",
             "image": "redshawlblanket__accessories.png"
         }
@@ -573,6 +615,7 @@
             "description": "Digital print, heavy cotton zip up jacket with hood. Fully fleece lined with side welt pockets.",
             "price": 70.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/psychedelicjacket__clothing.png",
             "image": "psychedelicjacket__clothing.png"
         }
@@ -586,6 +629,7 @@
             "description": "Lined Hemp sunhat with wide adjustable wired brim with fringe.",
             "price": 15.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/hempsunhat__accessories.png",
             "image": "hempsunhat__accessories.png"
         }
@@ -599,10 +643,160 @@
             "description": "Long Asymmetrical Jacket made from brushed back cotton with fleecey border and cowl style neck. Hooded, wooden Button fastenings and welt pockets.",
             "price": 50.00,
             "category": 4,
+            "item_has_size": true,
             "image_url": "media/asymmerticaljacket__clothing.png",
             "image": "asymmerticaljacket__clothing.png"
         }
+    },
+    {
+        "pk": 45,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "California Sage Bulbs",
+            "description": "These great Sage Smudge Bulb Sticks are used to bless, cleanse and heal the person or object being smudged. When the bulb stick it set alight, the smoke should be passed around the home or over the objects that need cleansing.",
+            "price": 5.00,
+            "category": 2,
+            "rating": 3.0,
+            "item_has_size": false,
+            "image_url": "media/californiasagebulbs__incense.png",
+            "image": "californiasagebulbs__incense.png"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Small Desert Sage",
+            "description": "These great Desert Sage Smudge Sticks are used for healing and to clear away negative energy. The smoke is generally used to bless, cleanse and heal the person or object being smudged.",
+            "price": 3.85,
+            "category": 2,
+            "rating": 3.5,
+            "item_has_size": false,
+            "image_url": "media/smalldesertsage__incense.png",
+            "image": "smalldesertsage__incense.png"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Yerba Santa Smudge Stick",
+            "description": "Yerba Santa is a medicinal herb but is also used as a form of smudging. It is used for protection, setting boundaries, growth, love, empowerment and is very closely related to the heart chakra.",
+            "price": 4.55,
+            "category": 2,
+            "rating": 5,
+            "item_has_size": false,
+            "image_url": "media/yerbasantasmudgestick__incense.png",
+            "image": "yerbasantasmudgestick__incense.png"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Large Sage Smudge Stick",
+            "description": "These great Sage Smudge Sticks are used for healing. The smoke is generally used to bless, cleanse and heal the person or object being smudged. Sage is used to cleanse the person from the outside world when entering into rituals, ceremonies and the like.",
+            "price": 2.85,
+            "category": 2,
+            "rating": 4.5,
+            "item_has_size": false,
+            "image_url": "media/largesagesmudgesticks__incense.png",
+            "image": "largesagesmudgesticks__incense.png"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Egyptian Sage",
+            "description": "These great Egyptian Sage Smudge Sticks are blended with Copal and are used for healing. The smoke is generally used to bless, cleanse and heal the person or object being smudged. Sage is used to cleanse the person from the outside world when entering into rituals and ceremonies.",
+            "price": 6.25,
+            "category": 2,
+            "rating": 5,
+            "item_has_size": false,
+            "image_url": "media/egyptiansage__incense.png",
+            "image": "egyptiansage__incense.png"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Egyptian Sage",
+            "description": "These great Egyptian Sage Smudge Sticks are blended with Copal and are used for healing. The smoke is generally used to bless, cleanse and heal the person or object being smudged. Sage is used to cleanse the person from the outside world when entering into rituals and ceremonies.",
+            "price": 6.25,
+            "category": 2,
+            "rating": 5,
+            "item_has_size": false,
+            "image_url": "media/egyptiansage__incense.png",
+            "image": "egyptiansage__incense.png"
+        }
+    }, {
+        "pk": 51,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Sky Blue Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 6.25,
+            "category": 1,
+            "rating": 5,
+            "item_has_size": false,
+            "image_url": "media/skyblue__hairdye.png",
+            "image": "skyblue__hairdye.png"
+        }
+    }, {
+        "pk": 52,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Amber Blonde Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 8.25,
+            "category": 1,
+            "rating": 3.5,
+            "item_has_size": false,
+            "image_url": "media/amberblonde__hairdye.png",
+            "image": "amberblonde__hairdye.png"
+        }
+    }, {
+        "pk": 53,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Midnight Blue Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 10.00,
+            "category": 1,
+            "rating": 5,
+            "item_has_size": false,
+            "image_url": "media/midnightblue__hairdye.png",
+            "image": "midnightblue__hairdye.png"
+        }
+    }, {
+        "pk": 54,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Ginger Hair Dye",
+            "description": "The instructions on these dyes suggest leaving the colour on for 15 minutes, but from our own extensive use of the product we’ve discovered it is perfectly safe to leave them in for up to 2 hours.",
+            "price": 7.00,
+            "category": 1,
+            "rating": 5,
+            "item_has_size": false,
+            "image_url": "media/ginger__hairdye.png",
+            "image": "ginger__hairdye.png"
+        }
     }
+
+
+
 
 
 ]

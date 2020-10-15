@@ -17,7 +17,7 @@
         {% endif %}
         <div class="price_wrap">
             <p class="hairdye__productPrice">Price</p>
-            <span class="dots">. . . . . . . . . . . . . . . . </span>
+            <span class="dots"> . . . . . . . . . . . . . . . . </span>
             <p class="hairdye__price">£{{ product.price }}</p>
 
         </div>
@@ -33,13 +33,13 @@
         <p class="description__product_info">{{ product.description }}</p>
         <form class="row amount_input_form" action="{% url 'add_to_cart' product.id %}" method="POST">
             {% csrf_token %}
+            {% with product.item_has_size as s %}
 
-            <p style="margin: 0; text-align:center; font-weight:600">Quantity & Size</p>
+            <p style="margin: 0; text-align:center; font-weight:600">Quantity{% if s %} & Size{% endif %}</p>
             <div class="row amount_size_wrap">
                 <input class="amount_input {% if s %}amount_input_fullwidth {% endif %}" type="number" name="amount" value="1" min="1" max="99"
                     data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
                 <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                {% with product.item_has_size as s %}
                 {% if s %}
 
                 <div class="input-field size_select col s12">
