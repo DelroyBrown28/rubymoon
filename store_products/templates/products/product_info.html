@@ -7,7 +7,7 @@
         {% if product.image %}
 
         <div class="product_image_wrap intro_fadein">
-            <img class="product_image" src="{{ product.image.url }}" alt="{{ product.name }}">
+            <img class="product_image " src="{{ product.image.url }}" alt="{{ product.name }}">
         </div>
         {% else %}
         <div class="product_image_wrap">
@@ -47,7 +47,7 @@
 
                 <div class="product_buy_button_wrap">
                 <input class="product_buy_button" type="submit" type="hidden" value="" href="{% url 'add_to_cart' product.id %}">
-                    <span class="button_text buy_text scroll_animate">Buy</span>
+                    <span class="button_text scroll_animate">Buy</span>
                 </div>
 
             </div>

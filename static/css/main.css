@@ -142,6 +142,10 @@ a.brand-logo {
     cursor: pointer;
 }
 
+.store_icons {
+    height: 50px;
+}
+
 .about_title {
     font-size: 20px;
     font-weight: 600;
@@ -446,6 +450,7 @@ a.brand-logo {
 }
 
 .product_buy_button_wrap {
+    position: relative;
     margin: 0px 10px;
     background-color: #000;
     border: none;
@@ -465,11 +470,15 @@ a.brand-logo {
     height: 100%;
     background-color: transparent;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 
-.buy_text {
+.button_text {
     position: absolute;
+    margin: auto;
 }
 
 .amount_input_form {

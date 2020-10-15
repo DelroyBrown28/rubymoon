@@ -13,10 +13,10 @@ window.onload = function () {
         paused: false
     });
 
-    homepageFadein.fromTo('.intro_fadein', 1, {
+    homepageFadein.fromTo('.intro_fadein', 0.5, {
         autoAlpha: '0'
     }, {
-        delay: 0.5,
+        delay: 0.3,
         // stagger: 0.1,
         autoAlpha: '1',
     })
@@ -26,10 +26,12 @@ window.onload = function () {
     })
 
     textRollup.fromTo('.scroll_animate', 1, {
-        y: '100px'
+        y: '100px',
+        autoAlpha: '0'
     }, {
         delay: 0.5,
-        y: '0'
+        y: '0',
+        autoAlpha: '1'
     })
 
 

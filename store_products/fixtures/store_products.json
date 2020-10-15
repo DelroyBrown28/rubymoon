@@ -498,6 +498,110 @@
             "image_url": "media/vegancowboyhat__accessories.png",
             "image": "vegancowboyhat__accessories.png"
         }
+    },
+    {
+        "pk": 37,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Red Dungadress",
+            "description": "Patterned and stonewash heavy cotton dungaree style dress, with crochet and embroidery detailing and coconut button fastenings.",
+            "price": 35.00,
+            "category": 4,
+            "image_url": "media/reddungadress__clothing.png",
+            "image": "reddungadress__clothing.png"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Hemp Bumbag",
+            "description": "Cotton bumbag with adjustable belt with buckle. Three zipped pockets.",
+            "price": 15.00,
+            "category": 4,
+            "image_url": "media/hempbumbag__accessories.png",
+            "image": "hempbumbag__accessories.png"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Cotton Backpack",
+            "description": "Back pack made from hemp and cotton. One large main zipped pocket, smaller front zipped pocket, and two side open elasticated pockets. Padded fully adjustable straps.",
+            "price": 35.00,
+            "category": 4,
+            "image_url": "media/cottonbackpack__accessories.png",
+            "image": "cottonbackpack__accessories.png"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Kaleidoscope Embroidery Hoody",
+            "description": "Digital print and stonewashed heavy cotton pullover jacket with hood. Fully fleece lined, side welt pockets.",
+            "price": 70.00,
+            "category": 4,
+            "image_url": "media/kaleidoscopeembroideryhoody__clothing.png",
+            "image": "kaleidoscopeembroideryhoody__clothing.png"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Red Shawl Blanket",
+            "description": "Large soft shawl with red, cream and green stripe and chevron design.",
+            "price": 20.00,
+            "category": 4,
+            "image_url": "media/redshawlblanket__accessories.png",
+            "image": "redshawlblanket__accessories.png"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Psychedelic Jacket",
+            "description": "Digital print, heavy cotton zip up jacket with hood. Fully fleece lined with side welt pockets.",
+            "price": 70.00,
+            "category": 4,
+            "image_url": "media/psychedelicjacket__clothing.png",
+            "image": "psychedelicjacket__clothing.png"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Hemp Sun Hat",
+            "description": "Lined Hemp sunhat with wide adjustable wired brim with fringe.",
+            "price": 15.00,
+            "category": 4,
+            "image_url": "media/hempsunhat__accessories.png",
+            "image": "hempsunhat__accessories.png"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "store_products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Asymmertical Jacket with Cowl",
+            "description": "Long Asymmetrical Jacket made from brushed back cotton with fleecey border and cowl style neck. Hooded, wooden Button fastenings and welt pockets.",
+            "price": 50.00,
+            "category": 4,
+            "image_url": "media/asymmerticaljacket__clothing.png",
+            "image": "asymmerticaljacket__clothing.png"
+        }
     }
 
 

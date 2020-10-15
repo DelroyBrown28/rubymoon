@@ -34,4 +34,18 @@
         "name": "accessories",
         "clean_name": "Accessories"
     }
+}, {
+    "pk": 6,
+    "model": "store_products.category",
+    "fields": {
+        "name": "mens",
+        "clean_name": "Mens"
+    }
+}, {
+    "pk": 6,
+    "model": "store_products.category",
+    "fields": {
+        "name": "womens",
+        "clean_name": "Womens"
+    }
 }]
