@@ -18,10 +18,9 @@ def cart_contents(request):
             total += item_data * product.price
             product_amount += item_data
             cart_items.append({
-                'item_id': item_id,
+                'item_id': item_id, 
                 'amount': item_data,
                 'product': product,
-                'size': size,
               
 
             })

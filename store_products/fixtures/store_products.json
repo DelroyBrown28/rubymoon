@@ -8,7 +8,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 4.6,
-
+            "has_sizes": false,
             "image_url": "media/red_dye.png",
             "image": "red_dye.png"
         }
@@ -22,7 +22,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 4.6,
-
+            "has_sizes": false,
             "image_url": "media/purple_dye.png",
             "image": "purple_dye.png"
         }
@@ -36,7 +36,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 4.7,
-
+            "has_sizes": false,
             "image_url": "media/orange_dye.png",
             "image": "orange_dye.png"
         }
@@ -50,7 +50,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/blonde_dye.png",
             "image": "blonde_dye.png"
         }
@@ -65,7 +65,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/black_dye.png",
             "image": "black_dye.png"
         }
@@ -80,7 +80,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/yellow_dye.png",
             "image": "yellow_dye.png"
         }
@@ -96,7 +96,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/intense_blonde_dye.png",
             "image": "intense_blonde_dye.png"
         }
@@ -112,7 +112,7 @@
             "price": 9.50,
             "category": 1,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/wolf_white_dye.png",
             "image": "wolf_white_dye.png"
         }
@@ -127,7 +127,7 @@
             "price": 5.00,
             "category": 2,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/dessert_sage_smudge_stick__incense.png",
             "image": "dessert_sage_smudge_stick__incense.png"
         }
@@ -142,7 +142,7 @@
             "price": 5.00,
             "category": 2,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/californiasage__incense.png",
             "image": "californiasage__incense.png"
         }
@@ -157,7 +157,7 @@
             "price": 5.00,
             "category": 2,
             "rating": 4.3,
-
+            "has_sizes": false,
             "image_url": "media/whitesagelavender__incencse.png",
             "image": "whitesagelavender__incencse.png"
         }
@@ -172,7 +172,7 @@
             "price": 9.50,
             "category": 2,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/sage_sweetgrass___incense",
             "image": "sage_sweetgrass___incense.png"
         }
@@ -187,7 +187,7 @@
             "price": 3.70,
             "category": 3,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/black_pepper__oils.png",
             "image": "black_pepper__oils.png"
         }
@@ -202,7 +202,7 @@
             "price": 3.50,
             "category": 3,
             "rating": 4.0,
-
+            "has_sizes": false,
             "image_url": "media/citronella__oils.png",
             "image": "citronella__oils.png"
         }
@@ -217,7 +217,7 @@
             "price": 5.00,
             "category": 3,
             "rating": 5.0,
-
+            "has_sizes": false,
             "image_url": "media/clary_sage__oils.png",
             "image": "clary_sage__oils.png"
         }
@@ -232,7 +232,7 @@
             "price": 4.50,
             "category": 3,
             "rating": 3.7,
-
+            "has_sizes": false,
             "image_url": "media/ylangylang__oils.png",
             "image": "ylangylang__oils.png"
         }
@@ -247,7 +247,7 @@
             "price": 6.20,
             "category": 3,
             "rating": 5.0,
-
+            "has_sizes": false,
             "image_url": "media/lavender__oils.png",
             "image": "lavender__oils.png"
         }
@@ -262,7 +262,7 @@
             "price": 9.50,
             "category": 3,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/rose__oils.png",
             "image": "rose__oils.png"
         }
@@ -277,7 +277,7 @@
             "price": 6.20,
             "category": 3,
             "rating": 4.5,
-
+            "has_sizes": false,
             "image_url": "media/hemp__oils.png",
             "image": "hemp__oils.png"
         }
@@ -292,7 +292,7 @@
             "price": 6.50,
             "category": 3,
             "rating": 5.0,
-
+            "has_sizes": false,
             "image_url": "media/chamomile_roman__oils.png",
             "image": "chamomile_roman__oils.png"
         }
@@ -307,7 +307,7 @@
             "price": 50.00,
             "category": 4,
             "rating": 5.0,
-
+            "has_sizes": true,
             "image_url": "media/menspatchworkjacket__clothing.png",
             "image": "menspatchworkjacket__clothing.png"
         }
@@ -321,7 +321,7 @@
             "description": "Magicians Multicoloured Waistcoat made from 100% fairtrade cotton. Double pointed collar with coconut button fastening.",
             "price": 30.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/magcicianswaistcoat__clothing.png",
             "image": "magcicianswaistcoat__clothing.png"
         }
@@ -335,7 +335,7 @@
             "description": "Stonewashed Cotton Corduroy Dungaree style Pinafore Dress with waist and back pockets. Adjustable straps and coconut button fastening.",
             "price": 30.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/farmerswifepinafore__clothing.png",
             "image": "farmerswifepinafore__clothing.png"
         }
@@ -349,7 +349,7 @@
             "description": "Heavy cotton dungaree style dress. with beautiful crochet and embroidery detailing and coconut button fastenings.",
             "price": 25.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/pinaress__clothing.png",
             "image": "pinaress__clothing.png"
         }
@@ -363,7 +363,7 @@
             "description": "100% Hemp Patchwork Pants with draw string for fastening and deep back and side pockets.",
             "price": 35.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/patchworkpants__clothing.png",
             "image": "patchworkpants__clothing.png"
         }
@@ -377,7 +377,7 @@
             "description": "50% Hemp 50% Cotton, these patchwork shorts come with cargo style pockets and an elasticated waistband.",
             "price": 15.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/patchworkshorts__clothing.png",
             "image": "patchworkshorts__clothing.png"
         }
@@ -391,7 +391,7 @@
             "description": "Stretchy cotton pathwork skirt made form 100% recycled fabrics.",
             "price": 10.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/patchworkskirt__clothing.png",
             "image": "patchworkskirt__clothing.png"
         }
@@ -405,7 +405,7 @@
             "description": "Soft cotton flannel shirt with side breast pockets, grandad collar and coconut buttons.",
             "price": 30.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/lumberjackshirt__clothing.png",
             "image": "lumberjackshirt__clothing.png"
         }
@@ -419,7 +419,7 @@
             "description": "100% hemp guiatr case with side zipper and Tibetan infinite knot embroidery design.",
             "price": 70.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/tibetaninfinisteknotguitarcase__accessories.png",
             "image": "tibetaninfinisteknotguitarcase__accessories.png"
         }
@@ -432,8 +432,8 @@
             "name": "Om Embroidery Guitar Case",
             "description": "100% hemp guitar case with Om symbol embroidery design.",
             "price": 70.00,
-            "category": 5,
-
+            "category": 4,
+            "has_sizes": false,
             "image_url": "media/omembroideryguitarcase__accessories.png",
             "image": "omembroideryguitarcase__accessories.png"
         }
@@ -447,7 +447,7 @@
             "description": "100% hemp mid-length Patchwork Dress with T-Shirt style sleves.",
             "price": 20.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/patchworkdress__clothing.png",
             "image": "patchworkdress__clothing.png"
         }
@@ -461,7 +461,7 @@
             "description": "100% fairtrade cotton with patchwork bodice and inserts. Lace detailing, spaghetti straps and elasticated back.",
             "price": 50.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/fairlyodddress__clothing.png",
             "image": "fairlyodddress__clothing.png"
         }
@@ -475,7 +475,7 @@
             "description": "Cotton sleevless Mandala Dress with hand printed designs and embroidery detailing.",
             "price": 30.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/teardropdress__clothing.png",
             "image": "teardropdress__clothing.png"
         }
@@ -489,7 +489,7 @@
             "description": "Cotton patchwork dungarees. Waist pockets, side trouser pockets with button and centre front single pocket. Adjustable straps with coconut button fastening. Button fastenings at the waist. Elasticated ankle hem.",
             "price": 30.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/patchworkdungarees__clothing.png",
             "image": "patchworkdungarees__clothing.png"
         }
@@ -503,7 +503,7 @@
             "description": "Back pack made from hemp and cotton. One large main zipped pocket, smaller front zipped pocket, and two side open elasticated pockets. Padded fully adjustable straps.",
             "price": 35.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/hempbackpack__accessories.png",
             "image": "hempbackpack__accessories.png"
         }
@@ -517,7 +517,7 @@
             "description": "Faux leather cowboy hat with cotton embroidery.",
             "price": 25.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/fauxleathercowboyhat__accessories.png",
             "image": "fauxleathercowboyhat__accessories.png"
         }
@@ -531,7 +531,7 @@
             "description": "100% hemp cowboy hat with wide adjustable wired brim.",
             "price": 20.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/vegancowboyhat__accessories.png",
             "image": "vegancowboyhat__accessories.png"
         }
@@ -545,7 +545,7 @@
             "description": "Patterned and stonewash heavy cotton dungaree style dress, with crochet and embroidery detailing and coconut button fastenings.",
             "price": 35.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/reddungadress__clothing.png",
             "image": "reddungadress__clothing.png"
         }
@@ -559,7 +559,7 @@
             "description": "Cotton bumbag with adjustable belt with buckle. Three zipped pockets.",
             "price": 15.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/hempbumbag__accessories.png",
             "image": "hempbumbag__accessories.png"
         }
@@ -573,7 +573,7 @@
             "description": "Back pack made from hemp and cotton. One large main zipped pocket, smaller front zipped pocket, and two side open elasticated pockets. Padded fully adjustable straps.",
             "price": 35.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/cottonbackpack__accessories.png",
             "image": "cottonbackpack__accessories.png"
         }
@@ -587,7 +587,7 @@
             "description": "Digital print and stonewashed heavy cotton pullover jacket with hood. Fully fleece lined, side welt pockets.",
             "price": 70.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/kaleidoscopeembroideryhoody__clothing.png",
             "image": "kaleidoscopeembroideryhoody__clothing.png"
         }
@@ -601,7 +601,7 @@
             "description": "Large soft shawl with red, cream and green stripe and chevron design.",
             "price": 20.00,
             "category": 4,
-
+            "has_sizes": false,
             "image_url": "media/redshawlblanket__accessories.png",
             "image": "redshawlblanket__accessories.png"
         }
@@ -615,7 +615,7 @@
             "description": "Digital print, heavy cotton zip up jacket with hood. Fully fleece lined with side welt pockets.",
             "price": 70.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/psychedelicjacket__clothing.png",
             "image": "psychedelicjacket__clothing.png"
         }
@@ -629,7 +629,7 @@
             "description": "Lined Hemp sunhat with wide adjustable wired brim with fringe.",
             "price": 15.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/hempsunhat__accessories.png",
             "image": "hempsunhat__accessories.png"
         }
@@ -643,7 +643,7 @@
             "description": "Long Asymmetrical Jacket made from brushed back cotton with fleecey border and cowl style neck. Hooded, wooden Button fastenings and welt pockets.",
             "price": 50.00,
             "category": 4,
-
+            "has_sizes": true,
             "image_url": "media/asymmerticaljacket__clothing.png",
             "image": "asymmerticaljacket__clothing.png"
         }
@@ -658,7 +658,7 @@
             "price": 5.00,
             "category": 2,
             "rating": 3.0,
-
+            "has_sizes": false,
             "image_url": "media/californiasagebulbs__incense.png",
             "image": "californiasagebulbs__incense.png"
         }
@@ -673,7 +673,7 @@
             "price": 3.85,
             "category": 2,
             "rating": 3.5,
-
+            "has_sizes": false,
             "image_url": "media/smalldesertsage__incense.png",
             "image": "smalldesertsage__incense.png"
         }
@@ -688,7 +688,7 @@
             "price": 4.55,
             "category": 2,
             "rating": 5,
-
+            "has_sizes": false,
             "image_url": "media/yerbasantasmudgestick__incense.png",
             "image": "yerbasantasmudgestick__incense.png"
         }
@@ -703,7 +703,7 @@
             "price": 2.85,
             "category": 2,
             "rating": 4.5,
-
+            "has_sizes": false,
             "image_url": "media/largesagesmudgesticks__incense.png",
             "image": "largesagesmudgesticks__incense.png"
         }
@@ -718,7 +718,7 @@
             "price": 6.25,
             "category": 2,
             "rating": 5,
-
+            "has_sizes": false,
             "image_url": "media/egyptiansage__incense.png",
             "image": "egyptiansage__incense.png"
         }
@@ -733,7 +733,7 @@
             "price": 6.25,
             "category": 2,
             "rating": 5,
-
+            "has_sizes": false,
             "image_url": "media/egyptiansage__incense.png",
             "image": "egyptiansage__incense.png"
         }
@@ -747,7 +747,7 @@
             "price": 6.25,
             "category": 1,
             "rating": 5,
-
+            "has_sizes": false,
             "image_url": "media/skyblue__hairdye.png",
             "image": "skyblue__hairdye.png"
         }
@@ -761,7 +761,7 @@
             "price": 8.25,
             "category": 1,
             "rating": 3.5,
-
+            "has_sizes": false,
             "image_url": "media/amberblonde__hairdye.png",
             "image": "amberblonde__hairdye.png"
         }
@@ -775,7 +775,7 @@
             "price": 10.00,
             "category": 1,
             "rating": 5,
-
+            "has_sizes": false,
             "image_url": "media/midnightblue__hairdye.png",
             "image": "midnightblue__hairdye.png"
         }
@@ -789,7 +789,7 @@
             "price": 7.00,
             "category": 1,
             "rating": 5,
-
+            "has_sizes": false,
             "image_url": "media/ginger__hairdye.png",
             "image": "ginger__hairdye.png"
         }

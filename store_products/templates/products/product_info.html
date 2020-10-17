@@ -38,9 +38,9 @@
             <p style="margin: 0; text-align:center; font-weight:600">Quantity{% if s %} & Size{% endif %}</p>
             <div class="row amount_size_wrap">
                 <div class="quantity_wrap">
-                    
-                    <button class="subtract_amount" data-item_id="{{ product.id }}" id="decrement-qty_{{product.id}}"> <i
-                            class="material-icons">arrow_downward</i>
+
+                    <button class="subtract_amount" data-item_id="{{ product.id }}" id="decrement-qty_{{product.id}}">
+                        <i class="material-icons">arrow_downward</i>
                     </button>
 
                     <input class="amount_input input_amount {% if s %}amount_input_fullwidth {% endif %}" type="number"

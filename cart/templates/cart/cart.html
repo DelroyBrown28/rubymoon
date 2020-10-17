@@ -28,7 +28,7 @@
 
                 </div>
                 <div>
-                    <p style="margin: 0;">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %} - {% endif %}</p>
+                    <p style="margin: 0;">{% if item.product.has_sizes %}Size: {{ item.size|upper }}{% else %}{% endif %}</p>
                     <p style="margin: 0;"><strong></strong></p>
                 </div>
                 <div>
@@ -56,7 +56,7 @@
                             </button>
 
                         </div>
-                        {% if item.product.item_has_size %}
+                        {% if item.product.has_size %}
                         <input type="hidden" name="product_size" value="{{ item.size }}">
                         {% endif %}
 
