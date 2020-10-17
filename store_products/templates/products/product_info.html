@@ -37,9 +37,23 @@
 
             <p style="margin: 0; text-align:center; font-weight:600">Quantity{% if has_size %} & Size{% endif %}</p>
             <div class="row amount_size_wrap">
-                <input class="amount_input {% if s %}amount_input_fullwidth {% endif %}" type="number" name="amount" value="1" min="1" max="99"
-                    data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
-                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                <div class="quantity_wrap">
+
+                    <button class="subtract_amount" data-item_id="{{ product.id }}" id="decrement-qty_{{product.id}}">
+                        <i class="material-icons">arrow_downward</i>
+                    </button>
+
+                    <input
+                        class="amount_input input_amount {% if has_size %}amount_input_fullwidth input_amount {% endif %}"
+                        type="number" name="amount" value="1" min="1" max="99" data-item_id="{{ product.id }}"
+                        id="id_qty_{{ product.id }}">
+                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+
+                    <button class="plus_amount" data-item_id="{{ product.id }}" id="increment-qty_{{product.id}}"> <i
+                            class="material-icons">arrow_upward</i>
+                    </button>
+
+                </div>
                 {% if has_size %}
 
                 <div class="input-field size_select col s12">
@@ -77,4 +91,9 @@
 
     </div>
 </div>
+{% endblock %}
+
+{% block mainjs %}
+{{ block.super }}
+{% include 'products/includes/amount_input_script.html' %}
 {% endblock %}
