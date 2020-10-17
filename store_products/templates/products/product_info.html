@@ -37,20 +37,25 @@
 
             <p style="margin: 0; text-align:center; font-weight:600">Quantity{% if s %} & Size{% endif %}</p>
             <div class="row amount_size_wrap">
-                <div class="quantity_wrap">
+                <div class="quantity_wrap input-group">
 
-                    <button class="subtract_amount" data-item_id="{{ product.id }}" id="decrement-qty_{{product.id}}">
-                        <i class="material-icons">arrow_downward</i>
-                    </button>
+                    <div class="minus_button_wrap">
+                        <button class="decrement-qty" data-item_id="{{ product.id }}"
+                            id="decrement-qty_{{ product.id }}">
+                            <i class="material-icons">arrow_downward</i>
+                        </button>
+                    </div>
 
-                    <input class="amount_input input_amount {% if s %}amount_input_fullwidth {% endif %}" type="number"
-                        name="amount" value="1" min="1" max="99" data-item_id="{{ product.id }}"
-                        id="id_qty_{{ product.id }}">
-                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    <input class="form-control qty_input" type="number" name="amount" value="1" min="1" max="98"
+                        data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
 
-                    <button class="plus_amount" data-item_id="{{ product.id }}" id="increment-qty_{{product.id}}"> <i
-                            class="material-icons">arrow_upward</i>
-                    </button>
+                    <div class="add_button_wrap">
+                        <button class="increment-qty" data-item_id="{{ product.id }}"
+                            id="increment-qty_{{ product.id }}">
+                            <i class="material-icons">arrow_upward</i>
+                        </button>
+                    </div>
+
 
                 </div>
                 {% if s %}
@@ -92,7 +97,7 @@
 </div>
 {% endblock %}
 
-{% block mainjs %}
+{% block postloadJS %}
 {{ block.super }}
 {% include 'products/includes/amount_input_script.html' %}
 {% endblock %}

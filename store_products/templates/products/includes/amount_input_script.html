@@ -1,32 +1,42 @@
 <script type="text/javascript">
-
     function enableDisable(itemId) {
-        var currentValue = parseInt($(`'id_qty_${itemId}`).val());
-        var subtractDisabled = currentValue < 2;
-        var plusDisabled = currentValue > 98;
-        $(`#decrement-qty_${itemId}`).prop('disabled', subtractDisabled);
-        $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
+
+        var currentValue = parseInt($(`#id_qty_${itemId}`).val());
+        var disableMinus = currentValue < 2;
+        var disablePlus = currentValue > 98;
+        $(`#decrement-qty_${itemId}`).prop('disabled', disableMinus);
+        $(`#increment-qty_${itemId}`).prop('disabled', disablePlus);
+
     }
 
-
-    // Increment Value
-    $('.plus_amount').click(function (e) {
-        e.preventDefault();
-        var closestInput = $(this).closest('.quantity_wrap').find('.input_amount')[0];
-        var currentValue = parseInt($(closestInput).val());
-        $(closestInput).val(currentValue + 1)
-        var itemId = $(this).data*('item_id');
+    var amountInputs = $('.qty_input');
+    for (var i = 0; i < amountInputs.length; i++) {
+        var itemId = $(amountInputs[i]).data('item_id');
         enableDisable(itemId);
-    });
-    
-    // Decrement Value
-    $('.subtract_amount').click(function (e) {
-        e.preventDefault();
-        var closestInput = $(this).closest('.quantity_wrap').find('.input_amount')[0];
-        var currentValue = parseInt($(closestInput).val());
-        $(closestInput).val(currentValue - 1)
-        var itemId = $(this).data*('item_id');
-        enableDisable(itemId);
-    });
+    }
 
+    $('.qty_input').change(function () {
+        var itemId = $(this).data('.item_id');
+        enableDisable(itemId)
+    })
+
+    // increment amount
+    $('.increment-qty').click(function (e) {
+        e.preventDefault();
+        var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+        var currentValue = parseInt($(closestInput).val());
+        $(closestInput).val(currentValue + 1);
+        var itemId = $(this).data('item_id');
+        enableDisable(itemId);
+    })
+
+    $('.decrement-qty').click(function (e) {
+        e.preventDefault();
+        var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+        var currentValue = parseInt($(closestInput).val());
+        $(closestInput).val(currentValue - 1);
+        var itemId = $(this).data('item_id');
+        enableDisable(itemId);
+
+    })
 </script>
