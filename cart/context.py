@@ -32,7 +32,7 @@ def cart_contents(request):
                 product_amount += amount
                 cart_items.append({
                     'item_id': item_id,
-                    'amount': item_data,
+                    'amount': amount,
                     'product': product,
                     'size': size,
                 })

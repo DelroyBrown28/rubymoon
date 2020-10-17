@@ -14,7 +14,7 @@
             {% if cart_items %}
             {% for item in cart_items %}
 
-            <div class="row cart_items_wrap">
+            <div class="container cart_items_wrap">
 
                 <div>
                     <img class="image_field___cart" src="{{ item.product.image.url }}">
@@ -28,18 +28,46 @@
 
                 </div>
                 <div>
-                    <p style="margin: 0;">Size: {% if item.product.item_has_size %}{{ item.size|upper }}{% else %}No
-                        Size
-                        Available{% endif %}</p>
+                    <p style="margin: 0;">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %} - {% endif %}</p>
                     <p style="margin: 0;"><strong></strong></p>
                 </div>
                 <div>
                     <p class="item_price">Price: £{{ item.product.price }}</p>
                 </div>
+                <div class="container addmore_container">
+                    <form class="addMore_form" method="POST" action="{% url 'edit_cart' item.item_id %}">
+                        {% csrf_token %}
+                        <p style="text-align: center;">Add More?</p>
+                        <div class="row quantity_wrap">
 
+                            <button class="subtract_amount" data-item_id="{{ item.item_id }}"
+                                id="decrement-qty_{{item.item_id}}">
+                                <i class="material-icons">arrow_downward</i>
+                            </button>
+
+                            <input
+                                class="amount_input input_amount {% if has_size %}amount_input_fullwidth input_amount {% endif %}"
+                                type="number" name="amount" value="{{ item.amount }}" min="1" max="99"
+                                data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
+
+                            <button class="plus_amount" data-item_id="{{ item.item_id }}"
+                                id="increment-qty_{{item.item_id}}"> <i class="material-icons">arrow_upward</i>
+                            </button>
+
+                        </div>
+                        {% if item.product.item_has_size %}
+                        <input type="hidden" name="product_size" value="{{ item.size }}">
+                        {% endif %}
+
+                    </form>
+
+                    <div class="row updateDelete_wrap">
+                        <a class="update_button">Update</a>
+                        <a class="delete_button" id="delete_{{ item.item_id }}" data-size="{{ item.size }}">Delete</a>
+                    </div>
+                </div>
             </div>
-
-
             {% endfor %}
         </div>
 
@@ -65,4 +93,37 @@
 
     </div>
 </body>
+{% endblock %}
+
+{% block mainjs %}
+{{ block.super }}
+{% include 'products/includes/amount_input_script.html' %}
+
+<script type="text/javascript">
+    // Update amount
+    $('.update_button').click(function (e) {
+        var form = $(this).prev('.addMore_form');
+        form.submit();
+        console.log(form);
+    })
+    
+
+    // Remove amount
+    $('.delete_button').click(function (e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('delete_')[1];
+        var size = $(this).data('size');
+        var url = `/cart/delete/${itemId}`;
+        var data = {
+            'csrfmiddlewaretoken': csrfToken,
+            'size': size
+        }
+
+        $.post(url, data)
+            .done(function () {
+                location.reload();
+            })
+    })
+</script>
+
 {% endblock %}

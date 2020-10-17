@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404, reverse
 from store_products.models import Product
 
 
@@ -25,8 +25,7 @@ def add_to_cart(request, item_id):
             else:
                 cart[item_id]['items_by_size'][size] = amount
         else:
-            cart[item_id] = {'items_by_size' : {size: amount}}
-
+            cart[item_id] = {'items_by_size': {size: amount}}
 
     else:
         if item_id in list(cart.keys()):
@@ -36,3 +35,29 @@ def add_to_cart(request, item_id):
 
     request.session['cart'] = cart
     return redirect(redirect_url)
+
+
+
+def edit_cart(request, item_id):
+    """Edit amount of its in the cart"""
+
+    product = get_object_or_404(Product, pk=item_id)
+    amount = int(request.POST.get('amount'))
+    size = None
+    if 'item_has_size' in request.POST:
+        size = request.POST['item_size']
+    cart = request.session.get('cart', {})
+
+    if size:
+        if amount > 0:
+            cart[item_id]['items_by_size'][size] = amount
+        else:
+            del cart[item_id]['items_by_size'][size]
+    else:
+        if amount > 0:
+            cart[item_id] = amount
+        else:
+            cart.pop[item_id]
+
+    request.session['cart'] = cart
+    return redirect(reverse('view_cart'))
