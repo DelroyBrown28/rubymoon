@@ -4,6 +4,8 @@ $(document).ready(function () {
     $('.tooltipped').tooltip();
     $('.modal').modal();
     $('select').formSelect();
+    $('.carousel').carousel();
+
 
 });
 

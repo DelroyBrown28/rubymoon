@@ -9,6 +9,7 @@ def cart_contents(request):
     cart_items = []
     total = 0
     product_amount = 0
+    size = None
     cart = request.session.get('cart', {})
 
     for item_id, item_data in cart.items():
@@ -20,6 +21,8 @@ def cart_contents(request):
                 'item_id': item_id,
                 'amount': item_data,
                 'product': product,
+                'size': size,
+              
 
             })
         else:
@@ -31,11 +34,8 @@ def cart_contents(request):
                     'item_id': item_id,
                     'amount': item_data,
                     'product': product,
-                    'size' : size,
+                    'size': size,
                 })
-
-
-
 
     if total < settings.FREE_DELIVERY_METER:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE/100)
